@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:#354349;
+  color: white;
+}
+.classList ul li {
+  list-style-type: none;
+  padding: 12px;
+  background-color: #414662;
+  margin: 12px 12px 12px 0px;
+  border-radius: 0px 20px 20px 0px;
+}
+.classList ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header{
+
+  /* height: 200px; */
+  border: 1px solid red;
+}
+.sideBar {
+  border: 3px solid black;
+margin: 23px;
+}
+.dicEmp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.dicEmp .dic{
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 12px;
+}
