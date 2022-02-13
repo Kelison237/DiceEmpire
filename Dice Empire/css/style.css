@@ -1,31 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color:rgb(15 22 30); */
 }
 body{
-  background-color:#354349;
+  background-color:rgb(15 22 30);
   color: white;
 }
 .classList ul li {
   list-style-type: none;
   padding: 12px;
-  background-color: #414662;
-  margin: 12px 12px 12px 0px;
+  background-color: rgb(63 73 241);
+  margin-top: 12px;
+  margin-left: 0px;
+  margin-right: 12px;
+  margin-bottom: 12px;
   border-radius: 0px 20px 20px 0px;
 }
 .classList ul li a {
   text-decoration: none;
   color: white;
 }
-.header{
-
+.Flex{
+width: 100%;
+width: 80vw;
+/* position: relative; */
+/* margin-left: -50vw; */
+/* height: 100px; */
+/* margin-top: 100px; */
+/* left: 50%; */
   /* height: 200px; */
   border: 1px solid red;
 }
 .sideBar {
-  border: 3px solid black;
+  /* border: 3px solid black; */
 margin: 23px;
+  background-color:rgb(16 23 31);
+  border-radius: 12px;
+  padding-right: 23px;
+  padding-bottom: 23px;
+  padding-top: 23px;
+  padding-left: 0px;
 }
 .dicEmp {
   display: flex;
@@ -37,5 +55,81 @@ margin: 23px;
   background: white;
   color: black;
   padding: 10px;
+  margin-right:2px;
   border-radius: 12px;
+}
+.pageBody {
+  display: flex;
+
+}
+.one {
+  background-color:
+}
+.h6 {
+  font-family: 'Poppins';
+}
+.Cards , .CardsTwo{
+  display: flex;
+  flex-wrap: wrap;
+}
+.usd {
+  font-family: 'Prompt';
+  font-weight: bold;
+  padding: 2px;
+}
+.box,.boxs {
+  padding: 20px;
+  border-radius: 20px;
+  /* background: black; */
+  color: white;
+  margin: 5px;
+  border-radius: 12px;
+}
+.dash{
+  font-family: 'Poppins'
+}
+.breakOne {
+  margin: 12px;
+}
+.stretch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftShift {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 22px;
+}
+.leftShift input{
+  border-radius: 42px;
+  outline: none;
+  padding: 10px;
+  margin-left: 22px;
+  width: 120px;
+}
+.search-btn {
+  /* margin-left: -40px; */
+  left: -30px;
+  position: relative;
+}
+.flex {
+  display: flex;
+  border: 2px solid red;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+.headTable {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plus {
+  background-color: #333333;
+  padding: 15px;
+  color: white;
+  border-radius: 50%;
 }
