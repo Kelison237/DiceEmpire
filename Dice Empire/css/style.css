@@ -8,12 +8,38 @@
 }
 body{
   background-color:rgb(15 22 30);
+  color: rgb(168 176 180);
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(65, 59, 59, 0.69);
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(57,196,198);
+  border-radius: 10px;
+}
+.dashb a {
+  text-decoration: none;
   color: white;
 }
+.dashb {
+  color: white;
+  font-family: 'Prompt';
+  padding: 12px;
+  border-radius: 0px 20px 20px 0px;
+  background: rgb(64 73 241);
+  margin-top: 40px;
+
+}
 .classList ul li {
+  font-family: 'Prompt';
   list-style-type: none;
   padding: 12px;
-  background-color: rgb(63 73 241);
+  width: 230px;
+  /* background-color: rgb(63 73 241); */
   margin-top: 12px;
   margin-left: 0px;
   margin-right: 12px;
@@ -24,16 +50,21 @@ body{
   text-decoration: none;
   color: white;
 }
+.sync {
+  padding: 10px;
+  background: black;
+  border-radius: 20px;
+}
 .Flex{
-width: 100%;
-width: 80vw;
+width: 90%;
+width: 50vw;
 /* position: relative; */
 /* margin-left: -50vw; */
 /* height: 100px; */
 /* margin-top: 100px; */
 /* left: 50%; */
   /* height: 200px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .sideBar {
   /* border: 3px solid black; */
@@ -63,7 +94,13 @@ margin: 23px;
 
 }
 .one {
-  background-color:
+ background-image: linear-gradient(to right, purple, pink);
+}
+.two {
+   background-image: linear-gradient(to right, skyblue, blue);
+}
+.boxs {
+  background-color: rgb(0, 6, 26);
 }
 .h6 {
   font-family: 'Poppins';
@@ -118,18 +155,153 @@ margin: 23px;
 }
 .flex {
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   flex-wrap: wrap;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 .headTable {
   display: flex;
   align-items: center;
+  width: 40vw;
+
   justify-content: space-between;
 }
-.plus {
-  background-color: #333333;
-  padding: 15px;
+.plus button{
+  border: none;
+  outline: none;
+  background-color: rgb(63 73 241);
+  padding:18px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
   color: white;
   border-radius: 50%;
+}
+th {
+  font-family: 'Poppins';
+  /* border-bottom: 1px solid grey; */
+  /* border-collapse: collapse; */
+}
+td {
+  padding: 0px 30px;
+  font-family: 'Prompt';
+  font-style: italic;
+}
+.completed {
+  background: green;
+  border-radius: 20px;
+  padding:  0 5px;
+}
+.tablew {
+  text-align: center;
+}
+.info h1 {
+  font-family: 'Prompt';
+  font-size: 20px;
+}
+ tr {
+  border-bottom: 1px solid grey;
+  margin: 12px;
+}
+.text-center {
+  font-family: 'Prompt'
+}
+.breakTwo {
+  background: rgb(57,196,198);
+background-image: linear-gradient(to bottom, #051937, #0c4464, #24748c, #4fa7af, #88dacc);
+    padding: 12px;
+  border-radius: 12px;
+  margin-left: 10vw;
+}
+.some {
+  width: 250px;
+}
+@media only screen and (min-width: 600px) {
+  .pageBody {
+    /* display:  block; */
+  }
+
+}
+.firstBtn , .secondBtn {
+  width: 300px;
+  border-radius: 20px;
+  display: grid;
+  margin: 5px;
+  grid-template-columns: 100px auto;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 30px; */
+  background:  rgb(0, 6, 26);
+  height: 110px;
+}
+.blue h2 {
+  background-color: grey;
+  padding: 10px;
+  width: 40px;color: white;
+  text-align: center;
+  height: 40px;
+  border-radius: 50%;
+}
+.blue {
+  background: blue;
+  padding: 30px;
+/* width: 10px; */
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.viewBtn {
+  /* display: /; */
+  grid-column: 1/2;
+  float: left;
+  text-align: right;
+}
+.viewBtn button {
+  border-radius: 30px;
+  border: none;
+  background: rgb(57,196,198);
+  padding: 12px;
+  cursor: pointer;
+}
+.viewBtn button:hover {
+  transition: 1.2s;
+  background-color: rgb(47, 216, 218);
+}
+.viewBtn button a {
+  text-decoration: none;
+  font-family: 'Prompt';
+  color: black;
+}
+.dropbtn {
+  color: white;
+  font-family: 'Poppins';
+  padding: 16px;
+  border: none;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(39, 53, 65);
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(68, 83, 98);
+}
+.detail {
+  position: relative;
+  display:inline-block;
+
+}
+.popup .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup .head h2 {
+  font-size: 17px;
+  font-family: 'Prompt';
+
+}
+.popup {
+  background-color: rgb(46, 45, 48);
+  padding: 12px;
+  border-radius: 20px;
 }

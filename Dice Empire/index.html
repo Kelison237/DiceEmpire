@@ -4,73 +4,200 @@
     <meta charset="utf-8">
     <title>Dice Empire</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css/all.css">
+      <link rel="stylesheet" href="css/css/fontawesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <!-- <script src="https://kit.fontawesome.com/d58311d6f0.js" crossorigin="anonymous"></script> -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js
+">
+
+</script>
   </head>
 
 
-  <body>
-<div class="pageBody row">
-  <div class="some">
-    <div class="sideBar">
+  <body class="">
+<div class="pageBody container">
+  <div class="some row">
+    <div class="sideBar col">
 <div class="dicEmp ">
 <p class="dic">Dice</p><h1 class="emp">Empire</h1>
 </div>
-  <p><i class="fa-regular fa-house"></i> <a href="#">Dashboard </a>
-       </p>
+  <p class="dashb"><i class="fas fa-house"></i> <a href="#"> Dashboard </a>
+       <i class="far fa-stream"></i></p>
        <div class="classList">
 
          <ul>
-           <li> <a href="#" >Transactions</a> </li>
-            <li> <a href="#">Trade</a> </li>
-             <li> <a href="#">Capture Transactions</a> </li>
-              <li> <a href="#">API Keys</a> </li>
-               <li> <a href="#">   OTC Portal</a> </li>
-                <li> <a href="#"> <i class="fab fa-user"></i> Profile</a> </li>
-                 <li> <a href="#">Settings</a> </li>
+           <li> <a href="#" ><i class="fa fa-line-chart"></i>&nbsp; Transactions</a> </li>
+            <li> <a href="#"><i class="fas fa-tag"></i>&nbsp;Trade</a> </li>
+             <li> <a href="#"><i class="fas fa-bullseye"></i>&nbsp;Capture Transactions</a> </li>
+              <li> <a href="#"> <i class="fas fa-key"></i>&nbsp; API Keys</a> </li>
+               <li> <a href="#"><i class="fas fa-exchange-alt"></i>&nbsp; OTC Portal</a> </li>
+                <li> <a href="#"> <i class="fa fa-user"></i>&nbsp; Profile<i class="fas fa-stream"></i></a> </li>
+                 <li> <a href="#" > <i class="fa fa-cog"></i>&nbsp; Settings</a> </li>
          </ul>
        </div>
 </div>
       </div>
       <div class="bodyTwo">
-        <div class="header Flex"><div class="stretch">
-          <h2>Dashboard</h2>
+        <div class="header Flex">
+          <div class="stretch">
+          <h2  class="dash">Dashboard</h2>
           <div class="leftShift">
-            <p>Sync</p>
-            <input type="text" name="" value="" placeholder="Search....">
-            <div class="circle">
-              dot
+            <div class="sync">
+  <p> <i class="fas fa-refresh"></i>  Sync</p>
+            </div>
+
+          <div class="search-box">
+            <input type="text" class="search-txt" name="" placeholder="Search....">
+            <a href="#" class="search-btn">
+<i class="fas fa-search"></i>
+            </a>
+          </div>  <div class="circle">
+              <i class="fas fa-circle"></i>
             </div>
           </div>
-        </div>  </div>
-        <div class="body Flex">
+        </div>
+      </div>
+        <div class="body flex col m-12">
             <div class="breakOne">
               <div class="Cards row" >
-                <div class="box one"> <p>Total Payouts</p>
-                <p>4,385,879.00</p>
+                <div class="box one col"> <p class="h6">Total Payouts</p>
+                <p class="text-center">4,385,879.00</p>
+
+                <!-- <p class="text-left|center|right|justify|nowrap">dfdasfa</p> -->
               <p class="usd">USD</p> </div>
-                <div class="box two"> <p>Pending Payouts</p>
-                <p>4,385,879.00</p>
+                <div class="box two col"> <p class="h6">Pending Payouts</p>
+                <p class="text-center">4,385,879.00</p>
               <p class="usd">USD</p>  </div></div>
               <div class="CardsTwo row p-12">
-                <div class="boxs"> <p>Total Deposits</p>
-                <p>4,385,879.00</p>
+                <div class="boxs col"> <p class="h6">Total Deposits</p>
+                <p class="text-center">4,385,879.00</p>
               <p class="usd">USD</p>  </div>
-                <div class="boxs">  <p>Amount Locked</p>
-                <p>4,385,879.00</p>
+                <div class="boxs col">  <p class="h6">Amount Locked</p>
+                <p class="text-center">4,385,879.00</p>
               <p class="usd">USD</p> </div>
             </div>
+            <div class="CardsThree graph">
+              <div class="firstBtn">
+                <div class="blue" style="background: rgb(61 74 240)">
+<h2><i class="fab fa-btc"></i></h2>
+                </div>
+                <p>Graph part</p>
+              </div>
+              <div class="secondBtn">
+                <div class="blue" style="background: rgb(240 38 62)">
+<h2><i class="fas fa-dollar-sign"></i></h2>
+                </div>
+                <p>Graph part</p>
               </div>
             </div>
+              </div>
+
             <div class="breakTwo">
+              <div class="headTable">
+<div class="info">
+<h1> <i class="fas fa-refresh"></i> Recent Transactions </h1>
+</div>
 
+<div class="plus">
+  <button type="button" name="button"><i class="fas fa-plus"></i>
+</button>
+
+</div>
+<div class="popup">
+<div class="head">
+    <h2>DEPOSIT</h2>
+    <p> <i class="fas fa-times"></i> </p>
+  </div>
+  <div class="detail">
+<span> <i class="fas fa-refresh"></i> </span>
+<div class="currency">
+  <h3>Currency</h3>
+<button onclick="dropDown()" class="dropbtn">--Select Currency--  <i class="fas fa-arrow-down"></i> </button>
+<div id="dropDowner" class="dropdown-content">
+<a href="#">BTC</a>
+<a href="#">USDT</a>
+</div>
+</div>
+  </div>
+
+</div>
+              </div>
+                 <div class="tablew">
+                    <table class="table">
+<thead>
+  <tr class="head">
+<th >Amount</th>
+<th>Status</th>
+<th>Date</th>
+  </tr>
+  <tr>
+<td >1223200034</td>
+<td class="completed">Completed</td>
+<td class="dates">14/07/2022 </td>
+  </tr>
+  <tr>
+<td >1223200034</td>
+<td class="completed">Completed</td>
+<td class="dates">14/07/2022 </td>
+  </tr>
+  <tr>
+<td >1223200034</td>
+<td class="completed">Completed</td>
+<td class="dates">14/07/2022 </td>
+  </tr>
+  <tr>
+<td >1223200034</td>
+<td class="completed">Completed</td>
+<td class="dates">14/07/2022 </td>
+  </tr>
+  <tr>
+<td >1223200034</td>
+<td class="completed">Completed</td>
+<td class="dates">14/07/2022 </td>
+  </tr>
+  <tr>
+<td >1223200034</td>
+<td class="completed">Completed</td>
+<td class="dates">14/07/2022 </td>
+  </tr>
+</thead>
+                    </table>
+                    <div class="viewBtn">
+                 <button type="button" name="button"> <a href="#">View More</a> </button>
+                    </div>
+                 </div>
             </div>
+</div>
 
+<div class="graphs">
+<div class="container_1">
+<div class="head">
+<h4>Rate History(BTC/XAF)</h4>
+<span> <i class="fas fa-refresh"></i> </span>
+</div>
+<div class="date">
+22/01/2022 13:32 -28/01/2022 13:30
+</div>
+<div class="dots">
+<p> <i class="fas fa-dot-circle red"></i> <i>USDT</i> </p>
+<p> <i class="fas fa-dot-circle blues"></i> <i>USDT</i> </p>
+</div>
+</div>
+<div class="container_2">
+
+</div>
+</div>
          </div>
       </div>
 
   </div>
 
 </div>
+<script type="text/javascript" src="js/graphs.js">
+
+</script>
       </body>
 </html>
