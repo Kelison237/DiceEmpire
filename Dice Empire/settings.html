@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Empire</title>
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/transactions.css">
+    <link rel="stylesheet" href="css/css/all.css">
+      <link rel="stylesheet" href="css/css/fontawesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js
+">
+
+</script>
+<style media="screen">
+.center_Break {
+  background: none;
+}
+.center_Break button {
+  width: 50%;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  font-family: 'Prompt';
+  margin: 10px;
+  margin-top: 60px;
+  cursor: pointer;
+background-color: rgb(8, 210, 204);
+color: white;
+}
+.center_Break h1 {
+font-family: 'Prompt';
+padding: 10px;
+}
+.containerss .container__1 {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 40px;
+
+
+}
+.containerss .container__1 p {
+  font-family: 'Prompt';
+  padding: 10px;
+  width: 400px;
+}
+.breaks {
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  background: none;
+}
+.editBtn {
+  background:  rgb(8, 210, 204);
+}
+.number,.text {
+  background:rgb(49, 105, 157);
+}
+.sub_1 {
+  background: rgb(30, 51, 50);
+  border-radius: 20px;
+  width: 400px;
+  padding: 20px;
+  height: 340px;
+  margin: 10px;
+}
+/* .sub1,.sub2 {
+  margin: auto;
+} */
+.sub_1 button {
+  margin-top: 20px;
+}
+.info .profileImg {
+  margin-right: 20px;
+}
+.sub_2 {
+  background: rgb(30, 51, 50);
+  border-radius: 20px;
+  width: 410px;
+  padding: 20px;
+  margin: 10px;
+  height: 340px;
+}
+.sub_2 button {
+  margin-top: 20px;
+}.sub_3 {
+  margin: 50px;
+    background: rgb(30, 51, 50);
+    padding: 20px;
+    border-radius: 20px;
+}
+.sub_3 .detal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  font-family: 'Poppins';
+}
+.containerss h2 {
+  font-family: 'Prompt';
+}
+.userName{
+  font-family: 'Prompt';
+}
+form label{
+  display: block;
+  padding: 5px;
+  font-family:'Prompt';
+}
+form input {
+  border: none;
+  outline: none;
+ padding: 10px;
+ width: 100%;
+ background: #1b1c2d;
+color: white;
+ border-radius: 20px;
+}
+</style>
+  </head>
+
+
+  <body class="">
+    <div class="pageDark">
+<div class="pageBodys containers">
+  <div class="some row">
+    <div class="sideBar col">
+<div class="dicEmp ">
+<p class="dic">Dice</p><h1 class="emp">Empire</h1>
+</div>
+ <p class="dashb"><i class="fas fa-house"></i> <a href="index.html"> Dashboard </a>
+</p>
+       <div class="classList">
+
+         <ul>
+           <li> <a href="transactions.html" ><i class="fa fa-line-chart"></i>&nbsp; Transactions</a> </li>
+            <li > <a href="trades.html"><i class="fas fa-tag"></i>&nbsp;Trade</a> </li>
+             <li > <a href="capture.html"><i class="fas fa-bullseye"></i>&nbsp;Capture Transactions</a> </li>
+              <li> <a href="keys.html"> <i class="fas fa-key"></i>&nbsp; API Keys</a> </li>
+               <li> <a href="portal.html"><i class="fas fa-exchange-alt"></i>&nbsp; OTC Portal</a> </li>
+                <li> <a href="profile.html"> <i class="fa fa-user"></i>&nbsp; Profile<i class="fas fa-stream"></i></a> </li>
+                 <li class="trans"> <a href="settings.html" > <i class="fa fa-cog"></i>&nbsp; Settings</a> </li>
+         </ul>
+       </div>
+</div>
+      </div>
+<div class="bodyTrans">
+<div class="navbar">
+  <div class="userIcon">
+  <p><i class="fas fa-user"></i></p>
+  </div>
+
+</div>
+<div class="breaks">
+  <div class="center_Break">
+    <h1>SETTINGS</h1>
+  <div class="containerss">
+<div class="container__1">
+<div class="sub1">
+
+<div class="sub_1">
+  <h2>GENERAL</h2>
+  <div class="info">
+  <div class="profileInfo">
+<p>Automatic Payouts  <input type="checkbox" name="" value="unchecked"> </p>
+<p>Two-Factor Authentication  <input type="checkbox" name="" value="unchecked"> </p>
+
+      <button type="button" class="editBtn">Save Settings &nbsp;&nbsp; <i class="fas fa-angle-right"></i> </button>
+  </div>
+  </div>
+</div>
+
+</div>
+<div class="sub2">
+
+<div class="sub_2">
+  <h2>CHANGE PASSWORD</h2>
+  <form class="pwd">
+ <label for="oldpwd">Old Password:</label>
+ <input type="password" name="oldpwd">
+ <label for="newpwd">New Password:</label>
+ <input type="password" name="newpwd">
+ <label for="repeatpwd">Repeat Password:</label>
+ <input type="password" name="repeatpwd">
+  </form>
+
+  <button type="button" class="editBtn">Update Password &nbsp;&nbsp; <i class="fas fa-angle-right"></i></button>
+
+</div>
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+</div>
+      </div>
+</div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Empire</title>
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/transactions.css">
+    <link rel="stylesheet" href="css/css/all.css">
+      <link rel="stylesheet" href="css/css/fontawesome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js
+">
+
+</script>
+<style media="screen">
+  .breakTwos {
+  text-align: center;
+  padding: 20px;
+  }
+  .breakTwos .center_Break img ,.breakTwos .center_Break h2
+   {
+     font-family: 'Prompt';
+    margin: 20px;
+  }
+  .breakTwos .center_Break p{
+    font-family: 'Poppins';
+  }
+
+  .notifIcons .lock {
+    background: rgb(8, 210, 204);
+    color: white;
+    font-family: 'Prompt';
+  padding-left: 10px;
+    padding-right: 10px;
+  }
+  .break {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .forms {
+    display: flex;
+
+  }
+  form {margin: 10px;}
+  form h3 {
+    font-family: 'Prompt';
+    padding: 5px;
+    font-size: 12px;
+  }
+  .hash , .btc {
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(27, 28, 45);
+  }
+.hash {
+  width: 250px;
+}
+.btc {
+  width: 90px;
+}
+.center_Break button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Prompt';
+  margin: 10px;
+  cursor: pointer;
+background-color: rgb(55, 58, 89);
+color: white;
+}
+.center_Break button:active {
+  transition: 1.5ms;
+  padding: 8px;
+}
+.center_Break h2 {
+font-family: 'Prompt';
+padding: 10px;
+}
+</style>
+  </head>
+
+
+  <body class="">
+    <div class="pageDark">
+<div class="pageBodys containers">
+  <div class="some row">
+    <div class="sideBar col">
+<div class="dicEmp ">
+<p class="dic">Dice</p><h1 class="emp">Empire</h1>
+</div>
+ <p class="dashb"><i class="fas fa-house"></i> <a href="index.html"> Dashboard </a>
+</p>
+       <div class="classList">
+
+         <ul>
+           <li> <a href="transactions.html" ><i class="fa fa-line-chart"></i>&nbsp; Transactions</a> </li>
+            <li > <a href="trades.html"><i class="fas fa-tag"></i>&nbsp;Trade</a> </li>
+             <li class="trans"> <a href="#"><i class="fas fa-bullseye"></i>&nbsp;Capture Transactions</a> </li>
+              <li> <a href="keys.html"> <i class="fas fa-key"></i>&nbsp; API Keys</a> </li>
+               <li> <a href="portal.html"><i class="fas fa-exchange-alt"></i>&nbsp; OTC Portal</a> </li>
+                <li> <a href="profile.html"> <i class="fa fa-user"></i>&nbsp; Profile<i class="fas fa-stream"></i></a> </li>
+                 <li> <a href="settings.html"  > <i class="fa fa-cog"></i>&nbsp; Settings</a> </li>
+         </ul>
+       </div>
+</div>
+      </div>
+<div class="bodyTrans">
+<div class="navbar">
+  <div class="userIcon">
+  <p><i class="fas fa-user"></i></p>
+  </div>
+  <!-- <div class="flexNav">
+    <div class="title"> <h1>Trades</h1> <p class="notification">0</p> </div>
+    <div class="notifIcons">
+    <p><a href="#"> <i class="fas fa-refresh"></i>&nbsp; Sync</a></p>
+    <p><a href="#"> <i class="fas fa-sort"></i>&nbsp; Sort</a></p>
+    <p><a href="#"> <i class="fas fa-filter"></i>&nbsp; Filter</a></p>
+<p class="lock">Lock Trade &nbsp;&nbsp; <i class="fas fa-lock"></i> </p>
+    </div>
+  </div> -->
+
+</div>
+<div class="break">
+  <div class="center_Break">
+  <h2>Capture Transactions</h2>
+  <div class="inputBox">
+    <div class="forms">
+      <form>
+      <h3>Hash Transactions</h3>
+      <input type="text" class="hash">
+      </form>
+      <form>
+      <h3>BTC</h3>
+      <input type="number" class="btc" min="1" max="100">
+      </form>
+    </div>
+<div class="submit">
+<button type="button" class="submit">Submit &nbsp; <i class="fas fa-arrow-right"></i> </button>
+</div>
+
+  </div>
+
+  </div>
+</div>
+<!-- <div class="changePage">
+<div class="rectangle_1">
+<a href="#" class="round1">1</a>
+<a href="#" class="round">2</a>
+<a href="#" class="round">3</a>
+<a href="#" class="round">4</a>
+<a href="#" class="round">5</a>
+<a href="#" class="round">6</a>
+<a href="#" class="round">7</a>
+<a href="#" class="round">8</a>
+<a href="#" class="round">9</a>
+<a href="#" class="round2">Next</a>
+</div>
+</div> -->
+</div>
+      </div>
+</div>
+  </div>
+
+</div>
+</body>
+</html>

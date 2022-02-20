@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.userIcon {
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px; */
+  /* border-radius: 50%; */
+
+  /* background-color: white; */
+  /* color: ; */
+text-align: center;
+
+}
+.userIcon p {
+border-radius: 50%;
+padding-top: 7px;
+width: 30px;
+position: relative;
+left: 950px;
+margin: 10px;
+height: 30px;
+background-color: white;
+}
+.notifIcons p a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-family: 'Prompt';
+}
+.containers {
+display: grid;
+grid-template-columns: 260px auto;
+}
+.flexNav {
+display: flex;
+justify-content: space-between;
+}
+.notifIcons {
+  display: flex;
+  padding: 4px;
+}
+.title h1 {
+  font-family: 'Poppins';
+}.title {
+  display: flex;
+}
+
+.notification {
+  font-family: 'Prompt';
+  /* width: 5; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+  background-color: rgb(57, 179, 168);
+  border-radius: 20px;
+  margin: 5px;
+  height: 35px;
+}
+.notifIcons p{
+  background: black;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 15px;
+}
+.dashb {
+  background: none;
+}
+.trans {
+  color: white;
+  font-family: 'Prompt';
+  padding: 12px;
+  border-radius: 0px 20px 20px 0px;
+  background: rgb(64 73 241);
+  /* margin-top: 40px; */
+  /* width: 100px; */
+
+}
+.breakTwos {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+th {
+  padding: 15px;
+  border-bottom: 2px solid grey;
+}
+tr {
+  padding: 0 10px 0 10px;
+  margin: 12px;
+}
+table {
+  border-spacing: 10px;
+}
+.rectangle_1 {
+/* background-color: rgb(148, 85, 54);
+border-radius: 20px;
+padding: 5px 10px 5px 10px; */
+width:auto;
+display: flex;
+justify-content: space-evenly;
+/* text-align: center; */
+width: 600px;
+}
+.round:hover {
+  transition: 1.5s;
+  cursor: pointer;
+  background-color: rgb(23, 189, 184);
+  padding: 5px;
+}
+.rectangle_1 a {
+  color: white;
+  font-family: 'Prompt';
+  text-decoration: none;
+  padding: 4px 20px 4.5px 20px;
+
+}
+.changePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.round1:hover{
+
+  cursor: pointer;
+  background-color: rgb(23, 189, 184);
+  border-radius: 20px 0 0 20px;
+  width: 50px;
+    transition: 1.5s;
+  text-align: center;
+
+  /* width: 30px; */
+}
+.round2:hover {
+  transition: 1.5s;
+  background-color: rgb(23, 189, 184);
+  border-radius: 0 20px 20px 0;
+  width: 70px;
+
+  text-align: left;
+}
+.breakTwos {
+  /* margin-left: 40px; */
+  background: rgb(57,196,198);
+background-image: linear-gradient(to bottom, #051937 60%, #051937, #051937, #051937,#051937, #6f80b3);
+    padding: 12px;
+  border-radius: 12px;
+
+}
+.searchBar input {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+}
