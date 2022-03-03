@@ -420,6 +420,20 @@ height: 100%;
   outline: none;
   border: none;
 }
+@media screen and (max-width: 450px) {
+  .breakTwo {
+    display: none;
+  }
+  .graphs canvas {
+    width: 250px;
+    height: 250px;
+
+  }
+  .container_1 , .container_2 {
+    width: auto;
+    height: auto;
+  }
+}
 @media screen and (max-width: 750px) {
 .pageBody {
   display: block;
@@ -512,9 +526,9 @@ margin:10px 0px 10px 50px;
 }
 .breakTwo table {
   width: 100%;
+  font-size: auto;
 }
 .container_1{
   margin-bottom: 10px;
 
-}
-}
+}}
